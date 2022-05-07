@@ -1,0 +1,49 @@
+/*************__________ Products Section Starts_____________ **********/
+
+.products-wrapper {
+    width: 75%;
+    margin: 60px auto 155px auto;
+
+}
+
+.products-wrapper .products-header {
+    margin: 50px 0px 10px 0px;
+    padding: auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.products-wrapper .products-content-wrapper {
+    margin: 10px 0px 10px 0px;
+    background-color: orange;
+}
+
+#products-section .products-content-wrapper .products-content {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#products-section .products-content-wrapper .products-content .products-main {
+    width: 25%;
+    height: 350px;
+    margin: 10px;
+}
+
+#products-section .products-content-wrapper .products-content .products-main .product-image-holder {
+    height: 240px;
+    padding: 10px;
+}
+
+#products-section .products-content-wrapper .products-content .products-main .product-datails-holder {
+    padding: 10px;
+}
+
+.star-review {
+    display: flex;
+
+}
+
+/************* Products Section Ends **********/
