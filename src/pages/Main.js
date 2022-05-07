@@ -5,7 +5,7 @@ export default function Main(props) {
 
   //taking passed value using props
   const { products, addToCart } = props;
-return (
+  return (
 <div id="products-section">
     <div className="products-wrapper">
         <div className="products-header">

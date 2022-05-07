@@ -5,7 +5,7 @@
 }
 
 .header {
-    width: 100%;
+    width: 93%;
     height: 80px;
     display: block;
 }
@@ -39,23 +39,36 @@
 }
 
 .icon-container {
-    width: 30px;
+    width: 20px;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
+.cart-denote {
+    background: rgb(176, 11, 11);
+    color: white;
+    border: 1px solid rgb(176, 11, 11);
+    font-size: 8px;
+    padding: 4px;
+    border-radius: 30%;
+}
+
 .logo {
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
 }
 
 .icon-cart {
-    padding: 6px;
+    padding: 10px;
     width: auto;
     height: auto;
 }
 
 .shop-page {
     margin: 0px 15px 0px 15px;
+}
+
+span, h4 {
+    font-size: 12px;
 }

@@ -1,5 +1,7 @@
 //importing the component navigation
 import Navigation from './components/Navigation';
+import Banner from './components/Banner';
+import Footer from './components/Footer';
 
 //importing the pages
 import Main from './pages/Main';
@@ -76,15 +78,18 @@ function App() {
       <Switch>
         <Route exact path='/'>
           {/* //the main product page, //passing the products to render in page */}
+          <Banner></Banner>
           <Main addToCart={addToCart} products={products} />
           <Cart itemsPrice={itemsPrice} taxPrice={taxPrice} totalPrice={totalPrice} increaseItem={increaseItem} decreaseItem={decreaseItem} deleteItem={deleteItem} cartItems={cartItems} />
         </Route>
 
-        <Route path='/cart' component={Cart}>
+        <Route path='/cart'>
           {/* //the cart page, //passing cartItems array to the cart page*/}
           <Cart itemsPrice={itemsPrice} taxPrice={taxPrice} totalPrice={totalPrice} increaseItem={increaseItem} decreaseItem={decreaseItem} deleteItem={deleteItem} cartItems={cartItems} />
         </Route>  
       </Switch>
+
+      <Footer />
     </div>
   );
 }

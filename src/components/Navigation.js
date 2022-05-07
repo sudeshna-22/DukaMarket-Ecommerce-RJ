@@ -25,9 +25,9 @@ export default function Navigation(props) {
                         </div>
                         <div className="shop-page">
                             <Link to='/cart'>
-                  <span>Shopping Cart {' '}
+                  <span className='inline light-color'>Shopping Cart {' '}
                   {countCartItems ? (
-                      <button className='badge'>{countCartItems }</button>
+                      <button className='cart-denote'>{countCartItems }</button>
                   ) : (
                     ''
                 )}</span>

@@ -1,13 +1,13 @@
 /*************__________ Products Section Starts_____________ **********/
 
 .products-wrapper {
-    width: 75%;
+    width: 65%;
     margin: 60px auto 155px auto;
 
 }
 
 .products-wrapper .products-header {
-    margin: 50px 0px 10px 0px;
+    margin: 70px 0px 10px 0px;
     padding: auto;
     text-align: center;
     font-size: x-large;

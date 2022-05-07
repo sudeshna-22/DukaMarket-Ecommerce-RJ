@@ -9,11 +9,12 @@
 
 .cart-main {
     width: 100%;
-    height: auto;
+    min-height: 523px;
     margin: 20px 0 60px 0;
     /* background-color: var(--grey); */
     display: flex;
     justify-content: center;
+
 }
 
 /** Cart Checkout, Total Section Left**/

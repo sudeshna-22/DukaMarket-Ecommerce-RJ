@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
 :root {
   --blue: #0163D2;
   --grey: #00000036;
@@ -13,6 +15,7 @@ h4, p {
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
