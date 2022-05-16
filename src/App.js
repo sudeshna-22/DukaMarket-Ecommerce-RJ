@@ -26,9 +26,10 @@ function App() {
     const exist = cartItems.find(x => x.id === product.id);
 
     if (exist) {
-      alert("Already Added! You can go to cart page to increase the quantity!");
+      alert("Warning! The item you have selected is already in the cart! You can go to cart page to increase the quantity!");
     }  else {
       setCartItems([...cartItems, { ...product, qty: 1 }]);
+      alert("Item Added Successfully!");
     }
   }
 
@@ -63,6 +64,7 @@ function App() {
   //delete the item
   const deleteItem = (product) => {
       setCartItems(cartItems.filter((x) => x.id !== product.id));
+      alert("The selected item will be removed from the cart!");
   }
 
   //for the check out in the cart
@@ -80,7 +82,7 @@ function App() {
           {/* //the main product page, //passing the products to render in page */}
           <Banner></Banner>
           <Main addToCart={addToCart} products={products} />
-          <Cart itemsPrice={itemsPrice} taxPrice={taxPrice} totalPrice={totalPrice} increaseItem={increaseItem} decreaseItem={decreaseItem} deleteItem={deleteItem} cartItems={cartItems} />
+          {/* <Cart itemsPrice={itemsPrice} taxPrice={taxPrice} totalPrice={totalPrice} increaseItem={increaseItem} decreaseItem={decreaseItem} deleteItem={deleteItem} cartItems={cartItems} /> */}
         </Route>
 
         <Route path='/cart'>

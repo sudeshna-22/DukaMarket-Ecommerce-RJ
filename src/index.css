@@ -12,6 +12,15 @@ h4, p {
   text-align: left;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+  margin: 3px 0 3px 0;
+}
+
 * {
   margin: 0;
   padding: 0;
